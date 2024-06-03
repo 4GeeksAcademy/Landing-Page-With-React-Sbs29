@@ -10,3 +10,18 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.cards {
+    margin : 0 0 15px 0;
+}
+
+.footer {
+    width : 100%;
+    height: 10vh;
+    background: #333639;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: "end";
+}
