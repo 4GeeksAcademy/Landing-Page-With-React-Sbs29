@@ -1,12 +1,10 @@
 import React from "react";
 
-//include images into your bundle
 import Navbar from "./navbar";
 import Card from "./card"
 import Jumbotron from "./jumbotron";
 import Footer from "./footer";
 import "../../styles/index.css";
-
 
 //create your first component
 const Home = () => {
