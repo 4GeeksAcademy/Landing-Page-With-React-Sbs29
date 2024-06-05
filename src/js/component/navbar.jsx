@@ -9,13 +9,13 @@ const navbarItemsInHTML = navbarItems.map((singleNavbarItems, index) => {
 //create your first component
 const Navbar = () => {
 	return (
-		<nav class="navbar navbar-expand-lg bg-dark">
-            <div class="container-fluid ">
-                <div class="me-auto p-2">
-                    <a class="navbar-brand text-bg-dark p-3" href="#">Start Bootstrap</a>
+		<nav className="navbar navbar-expand-lg bg-dark">
+            <div className="container-fluid ">
+                <div className="me-auto p-2">
+                    <a className="navbar-brand text-bg-dark p-3" href="#">Start Bootstrap</a>
                 </div>
-                <div class="collapse navbar-collapse p-2" id="navbarNav">
-                    <ul class="navbar-nav">
+                <div className="collapse navbar-collapse p-2" id="navbarNav">
+                    <ul className="navbar-nav">
                         {navbarItemsInHTML}
                     </ul>
                 </div>
