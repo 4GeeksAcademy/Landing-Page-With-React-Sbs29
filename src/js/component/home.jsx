@@ -7,6 +7,7 @@ import Jumbotron from "./jumbotron";
 import Footer from "./footer";
 import "../../styles/index.css";
 
+
 //create your first component
 const Home = () => {
 	return (

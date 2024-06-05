@@ -15,13 +15,27 @@
     margin : 0 0 15px 0;
 }
 
+.card {
+    margin: 0 15px 0 15px;
+    border-radius: 5px;
+}
+
+.navbar-brand, .offcanvas-title {
+    color: white;
+}
+
+
+.offcanvas-header {
+    border: 1px solid white;
+}
+
 .footer {
     width : 100%;
-    height: 10vh;
+    height: 8vh;
     background: #333639;
     text-align: center;
     color: white;
     display: flex;
     flex-direction: column;
-    justify-content: "end";
+    justify-content: end;
 }

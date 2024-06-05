@@ -9,18 +9,25 @@ const navbarItemsInHTML = navbarItems.map((singleNavbarItems, index) => {
 //create your first component
 const Navbar = () => {
 	return (
-		<nav className="navbar navbar-expand-lg bg-dark">
-            <div className="container-fluid ">
-                <div className="me-auto p-2">
-                    <a className="navbar-brand text-bg-dark p-3" href="#">Start Bootstrap</a>
+		<nav class="navbar bg-body-tertiary bg-dark navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+            <h1 class="navbar-brand">Start Bootstrap</h1>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end bg-dark" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Start Bootstrap</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
-                <div className="collapse navbar-collapse p-2" id="navbarNav">
-                    <ul className="navbar-nav">
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                         {navbarItemsInHTML}
                     </ul>
                 </div>
             </div>
-        </nav>
+        </div>
+    </nav>
 	);
 };
 
